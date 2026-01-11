@@ -1,0 +1,15 @@
+dist/
+# Ignore node_modules directory
+node_modules/
+fintech project/
+
+# Ignore Vite's cache directory
+.vite/
+
+# Ignore package-lock.json for npm users
+package-lock.json
+
+# Ignore yarn.lock for yarn users
+yarn.lock
+
+.env

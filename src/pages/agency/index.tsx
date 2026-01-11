@@ -1,0 +1,19 @@
+export { default as HomePage } from './HomePage';
+export { default as AIDevelopmentPage } from './AIDevelopmentPage';
+export { default as ContactPage } from './ContactPage';
+export { default as WebDevelopmentPage } from './WebDevelopmentPage';
+export { default as MobileAppDevelopmentPage } from './MobileAppDevelopmentPage';
+export { default as CustomSoftwarePage } from './CustomSoftwarePage';
+export { default as SaaSDevelopmentPage } from './SaaSDevelopmentPage';
+export { default as DatabaseDevelopmentPage } from './DatabaseDevelopmentPage';
+export { default as FintechDevelopmentPage } from './FintechDevelopmentPage';
+export { default as UIUXDesignPage } from './UIUXDesignPage';
+export { default as PortfolioPage } from './PortfolioPage';
+export { default as OurTechPage } from './OurTechPage';
+export { default as AboutPage } from './AboutPage';
+export { default as MissionVisionPage } from './MissionVisionPage';
+export { default as TeamPage } from './TeamPage';
+export { default as CompanyValuesPage } from './CompanyValuesPage';
+export { default as DevelopmentProcessPage } from './DevelopmentProcessPage';
+export { default as IndustryAwardsPage } from './IndustryAwardsPage';
+

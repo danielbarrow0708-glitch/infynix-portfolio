@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Inter", sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: 400;
+  color: #1F2125;
+  background-color: #ffffff;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-to-bottom {
+  position: relative;
+}
+
+.rscroll-to-bottom {
+  height: auto;
+  overflow-y: auto;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 720px) {
+  pre {
+    width: calc(100vw - 110px);
+  }
+}
+
+pre:has(div.code) {
+  padding: 0;
+  margin: 0;
+}
+
+markdown-processing { 
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.iconStandard{
+height: 16px;
+ width: 16px;
+}
+
+.container{
+  width: calc(100vw - 150px);
+  margin: 20px auto 3px auto;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+/* Fintech Block Item Styles - Matching Reference */
+.block-item {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.block-link {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  text-indent: -9999px;
+}
+
+.block-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.block-item-content {
+  position: relative;
+  z-index: 5;
+}
+
+.block-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 0.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.btn__tertiary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.btn__tertiary:hover {
+  color: #e5e7eb;
+  transform: translateX(2px);
+}
