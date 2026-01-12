@@ -1,2 +1,0 @@
-jQuery(document).ready(function(e){e(".pragmaticcoders-timeline").length&&e(".pragmaticcoders-timeline").each(function(){var i=0;e(this).find(".timeline-item .date").each(function(){var t=e(this).outerWidth();t>i&&(i=t+40)}),e(this).find(".line").css("left",i+"px")})})
-;

@@ -1,2 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){var e=document.getElementById("search"),t=e?e.querySelector(".search-button"):null,c=e?e.querySelector(".search-field"):null;t&&t.addEventListener("click",function(){e.classList.toggle("active"),e.classList.contains("active")&&c&&c.focus()}),document.addEventListener("click",function(t){e&&e.classList.contains("active")&&!t.target.closest("#search")&&e.classList.remove("active")})})
-;

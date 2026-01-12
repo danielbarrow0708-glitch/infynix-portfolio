@@ -1,2 +1,0 @@
-(()=>{function e(){jQuery(".pragmaticcoders-table-of-contents").each(function(){var e=jQuery(this).outerHeight();jQuery(this).css("bottom",-e)})}jQuery(document).ready(function(t){t(".blog-single .pragmaticcoders-table-of-contents").length&&(e(),jQuery(".blog-single .pragmaticcoders-table-of-contents").click(function(){jQuery(this).toggleClass("active")}))}),jQuery(window).on("resize",function(){e()})})()
-;

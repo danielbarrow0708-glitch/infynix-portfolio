@@ -1,2 +1,0 @@
-jQuery(document).ready(function(t){var e=t(".ebook-intro .intro-left"),n=t(".webinar-intro .intro-left");if(e.length>0){var i=e.height();e.parent().find(".intro-center").height(i)}n.length>0&&(i=n.height(),n.parent().find(".intro-center").height(i))})
-;

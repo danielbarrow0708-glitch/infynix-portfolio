@@ -1,2 +1,0 @@
-(()=>{if(jQuery(".pragmaticcoders-steps").length&&window.innerWidth>=765)new Swiper(".pragmaticcoders-steps",{slidesPerView:4,spaceBetween:25,navigation:{nextEl:".arr-next",prevEl:".arr-prev"},pagination:{el:".swiper-pagination-progressbar",type:"progressbar"},breakpoints:{765:{slidesPerView:1},992:{slidesPerView:3},1320:{slidesPerView:3},1321:{slidesPerView:4}}})})()
-;

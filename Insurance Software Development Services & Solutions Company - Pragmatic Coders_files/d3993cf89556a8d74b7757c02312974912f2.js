@@ -1,2 +1,0 @@
-jQuery(document).ready(function(t){t(".oc-image img").each(function(){var i=t(this).width();t(".e-con").width(),t(this).offset().left+i/2<=t(window).width()/2?t(this).css("float","right"):t(this).css("float","left")})})
-;

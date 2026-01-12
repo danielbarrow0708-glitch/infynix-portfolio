@@ -1,2 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".scroll-div").forEach(function(e){e.addEventListener("click",function(){var e=document.querySelector(".scroll-div");if(e){var n,t,o,i,d,r=e.getBoundingClientRect(),c=window.pageYOffset+r.top+e.offsetHeight-80;n=c,t=50,o=window.pageYOffset,i=n-o,d=null,window.requestAnimationFrame(function e(n){d||(d=n);var r=n-d,c=Math.min(r/t,1);window.scrollTo(0,o+i*c),r<t&&window.requestAnimationFrame(e)})}})})})
-;

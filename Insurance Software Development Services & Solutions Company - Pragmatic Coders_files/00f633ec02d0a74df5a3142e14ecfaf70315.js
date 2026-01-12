@@ -1,2 +1,0 @@
-(()=>{if(jQuery(".pragmaticcoders-testimonials").length)new Swiper(".pragmaticcoders-testimonials",{slidesPerView:2,spaceBetween:30,loop:!0,navigation:{nextEl:".arr-next",prevEl:".arr-prev"},pagination:{el:".swiper-pagination-progressbar",type:"progressbar"},breakpoints:{1:{slidesPerView:1,spaceBetween:10},992:{slidesPerView:2,spaceBetween:20}}})})()
-;

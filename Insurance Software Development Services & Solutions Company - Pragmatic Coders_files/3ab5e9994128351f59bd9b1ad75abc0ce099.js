@@ -1,2 +1,0 @@
-jQuery(document).ready(function(e){e(".nf-form-cont.checkbox-topics").length&&e(".nf-form-cont.checkbox-topics").each(function(){var c=e(this);c.on("change",'input[type="checkbox"]',function(){var n=[],t=[];c.find('input[type="checkbox"]:checked').each(function(){var c=e(this).val(),o=c.toUpperCase().replace(/\s+/g,"_");n.push(c),t.push(o)});var o=n.join(","),i=t.join(",");_,c.find(".selected_tags").val(i),c.find(".selected_interests").val(o)})})})
-;
