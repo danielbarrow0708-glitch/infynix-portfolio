@@ -1,0 +1,2 @@
+jQuery(document).ready(function(a){a(".pragmaticcoders-team-tabs").length&&(a(".tab").first().addClass("active"),a(".tab-container").first().addClass("active"),a(".tabs").on("click",".tab",function(){var t=a(this).data("tab-id");a(".tab-container").removeClass("active"),a('.tab-container[data-tab-id="'+t+'"]').addClass("active").show(),a(".tab").removeClass("active"),a(this).addClass("active")}))})
+;

@@ -238,7 +238,7 @@ const FintechDevelopmentPage: React.FC = () => {
               <div
                 key={index}
                 className="group relative block-item"
-                style={{ marginTop: index > 0 ? '70px' : '0' }}
+                style={{ marginTop: index >= 3 ? '70px' : '0' }}
               >
                 <Link
                   to={service.link}
